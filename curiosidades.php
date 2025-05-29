@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="has-background-dark">
-
-
     <section class="hero is-black">
         <div class="hero-body">
             <div class="container has-text-centered">
