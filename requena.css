@@ -1,24 +1,149 @@
 /* Efecto hover para las tarjetas */
 .card.hoverable:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    transform: translateY(-6px);
-    transition: all 0.3s ease;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+  transition: all 0.3s ease;
+}
+
+/* Contenedor responsivo para videos */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
   }
-  
-  /* Contenedor responsivo para videos */
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  .video-container iframe,
-  .video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+}
+
+.hero .title,
+.hero .subtitle {
+  animation: fadeInDown 1s ease forwards;
+}
+.hero .subtitle {
+  animation-delay: 0.3s;
+}
+.hero .button {
+  animation: fadeInDown 1s ease forwards;
+  animation-delay: 0.6s;
+}
+
+/* Botón con sombra y efecto hover */
+.button.is-info {
+  box-shadow: 0 5px 15px rgba(23, 162, 184, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.button.is-info:hover {
+  box-shadow: 0 8px 25px rgba(23, 162, 184, 0.7);
+  transform: translateY(-3px);
+}
+
+/* Tarjetas con sombra, borde redondeado y efecto zoom */
+.card.hoverable {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.card.hoverable:hover {
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+  transform: scale(1.05);
+}
+
+/* Imagen de las tarjetas con borde redondeado */
+.card-image img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Badge para los títulos de las tarjetas */
+.card-content .title {
+  position: relative;
+  display: inline-block;
+  background-color: #00d1b2; /* color bulma info */
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* Video con borde redondeado y sombra */
+.video-container video {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Ajuste de columnas en móviles para más espacio */
+@media screen and (max-width: 768px) {
+  .columns.is-centered {
+      justify-content: center;
   }
-  
+  .column.is-4 {
+      flex: 0 0 90%;
+      max-width: 90%;
+  }
+}
+
+/* Estilo mejorado para títulos de sección */
+.title-section {
+  position: relative;
+  display: inline-flex;  /* inline-flex para alinear icono y texto */
+  align-items: center;   /* centrar verticalmente */
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3273dc; /* color primario Bulma */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 8px;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  cursor: default;
+  user-select: none;
+  text-shadow: 1px 1px 2px rgba(50, 115, 220, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-section::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background: linear-gradient(90deg, #3273dc, #00d1b2);
+  bottom: 0;
+  left: 25%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.title-section:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Icono antes del texto para mejorar look */
+.title-section .icon-left {
+  margin-right: 0.5rem;
+  color: #00d1b2;
+  vertical-align: middle;
+  font-size: 1.3rem;
+}
