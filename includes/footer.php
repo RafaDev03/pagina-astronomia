@@ -7,3 +7,4 @@
         <p class="mt-3">© 2025 Todos los derechos reservados.</p>
     </div>
 </footer>
+
