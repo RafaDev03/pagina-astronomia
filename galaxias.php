@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipos de Galaxias</title>
+    <title>Galaxias - Astronomía</title>
 
     <!-- Bulma CSS -->
     <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
@@ -23,14 +23,15 @@
     <section class="hero is-black">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title is-1 has-text-white mt-4">Tipos de Galaxias</h1>
-                <h2 class="subtitle is-4 has-text-grey-light">Clasificación según su forma y estructura</h2>
+                <h1 class="title is-1 has-text-white mt-4 mb-3">Galaxias</h1>
+                <p class="subtitle has-text-grey-light is-size-5">Inmensas colecciones de estrellas que albergan los
+                    secretos del universo.</p>
             </div>
         </div>
     </section>
 
     <!-- Cómo se forman las galaxias -->
-    <section class="section has-background-black">
+    <section class="section">
         <div class="container has-text-centered">
             <h3 class="title is-4 has-text-warning mb-5">¿Cómo se forman las galaxias?</h3>
             <div class="columns is-multiline is-centered is-variable is-6">
@@ -71,6 +72,7 @@
     <!-- Sección de Galaxias -->
     <section class="section has-background-dark">
         <div class="container">
+            <h3 class="title is-4 has-text-centered has-text-warning mb-5">Tipos de galaxias</h3>
             <div class="columns is-multiline">
 
                 <!-- Galaxia Elíptica -->

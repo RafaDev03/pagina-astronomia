@@ -1,28 +1,33 @@
-<header class="tw-bg-gray-900 tw-text-white tw-py-4">
-    <div class="container">
-        <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-items-center">
-            <p class="tw-text-sm tw-mb-2 md:tw-mb-0">
-                906 213 755 // andres08gs@hotmail.com
-            </p>
-            <nav>
-                <ul class="tw-flex tw-flex-wrap tw-gap-4 tw-text-sm">
-                    <li><a href="index.php.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Inicio</a></li>
-                    <li><a href="historia.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Historia</a>
-                    </li>
-                    <li><a href="experiencia.php"
-                            class="tw-text-white hover:tw-text-blue-400 tw-transition">Sistema Solar</a></li>
-                    <li><a href="habilidades.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Esttrellas</a></li>
-                    <li><a href="intereses.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Galaxias</a>
-                    </li>
-                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Agujeros Negros</a></li>
-                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Astronautas</a></li>
-                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Telescopios</a></li>
-                    <li><a href="eventos.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Eventos</a></li>
-                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Contacto</a></li>
-                    <li><a href="curiosidades.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Curiosidades</a></li>
-                    <li><a href="exploracion-espacial.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Exploracion Espacial</a></li>
-                </ul>
-            </nav>
-        </div>
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
+
+<header class="tw-bg-gray-900 has-text-white py-4">
+    <div class="container has-text-centered">
+        <nav class="is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center">
+            <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-size-6">
+                <?php
+                $pages = [
+                    "index.php" => "Inicio",
+                    "historia.php" => "Historia",
+                    "sistema-solar.php" => "Sistema Solar",
+                    "estrellas.php" => "Estrellas",
+                    "galaxias.php" => "Galaxias",
+                    "agujeros-negros.php" => "Agujeros Negros",
+                    "astronautas.php" => "Astronautas",
+                    "telescopios.php" => "Telescopios",
+                    "eventos.php" => "Eventos",
+                    "contacto.php" => "Contacto",
+                    "curiosidades.php" => "Curiosidades",
+                    "exploracion-espacial.php" => "Exploracion Espacial"
+                ];
+
+                foreach ($pages as $file => $name) {
+                    $active = $currentPage === $file ? 'has-text-link has-text-weight-bold' : 'has-text-white';
+                    echo "<li class='mx-3 my-1'><a href='{$file}' class='{$active}'>{$name}</a></li>";
+                }
+                ?>
+            </ul>
+        </nav>
     </div>
 </header>
