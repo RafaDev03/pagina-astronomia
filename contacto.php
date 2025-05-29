@@ -75,7 +75,7 @@
                 <div class="column is-5 is-offset-1">
                     <div class="box has-background-grey-darker">
                         <figure class="image is-5by3 mb-4">
-                            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Equipo astronómico">
+                            <img src="assets\img\contacto\universo.jpg" alt="Equipo astronómico">
                         </figure>
                         <h3 class="title is-4 has-text-white">Nuestro equipo</h3>
                         <div class="content has-text-grey-light">

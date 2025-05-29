@@ -23,7 +23,7 @@
                 <div class="columns is-vcentered">
                     <div class="column is-one-third">
                         <figure class="image is-4by3 rounded-lg overflow-hidden shadow-md">
-                            <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Lluvia de meteoros" class="object-cover h-full w-full">
+                            <img src="assets\img\eventos\lluvia-liridas.jpg" alt="Lluvia de meteoros" class="object-cover h-full w-full">
                         </figure>
                     </div>
                     <div class="column">
@@ -57,7 +57,7 @@
                 <div class="columns is-vcentered">
                     <div class="column is-one-third">
                         <figure class="image is-4by3 rounded-lg overflow-hidden shadow-md">
-                            <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Superluna" class="object-cover h-full w-full">
+                            <img src="assets\img\eventos\luna-flores.jpg" alt="Superluna" class="object-cover h-full w-full">
                         </figure>
                     </div>
                     <div class="column">

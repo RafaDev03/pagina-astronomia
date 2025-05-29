@@ -24,7 +24,7 @@
                 <div class="columns is-vcentered">
                     <div class="column is-4">
                         <figure class="image is-4by3 rounded-lg overflow-hidden shadow-md">
-                            <img class="object-cover" src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Apollo 11">
+                            <img class="object-cover" src="assets\img\exploracion-espacial\apolo11.jpg" alt="Apollo 11">
                         </figure>
                     </div>
                     <div class="column">
@@ -58,7 +58,7 @@
                 <div class="columns is-vcentered">
                     <div class="column is-4">
                         <figure class="image is-4by3 rounded-lg overflow-hidden shadow-md">
-                            <img class="object-cover" src="https://images.unsplash.com/photo-1541873676-a18131494184?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Voyager">
+                            <img class="object-cover" src="assets\img\exploracion-espacial\Voyager.jpg" alt="Voyager">
                         </figure>
                     </div>
                     <div class="column">

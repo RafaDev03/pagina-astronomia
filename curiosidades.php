@@ -55,7 +55,7 @@
                             <div class="column is-one-third">
                                 <figure class="image is-1by1 rounded-full overflow-hidden shadow-md">
                                     <img class="object-cover"
-                                        src="https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                        src="assets\img\curiosidades\sol.jpg"
                                         alt="Sol">
                                 </figure>
                             </div>
@@ -83,7 +83,7 @@
         </div>
     </section>
 
- 
+   
 
     <?php include 'includes/footer.php'; ?>
 </body>
