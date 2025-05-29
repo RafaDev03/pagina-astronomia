@@ -27,7 +27,7 @@
 <!-- Secciones principales como tarjetas -->
 <section class="section" id="secciones">
   <div class="container">
-    <h3 class="title is-3 has-text-centered mb-6">Explora nuestras secciones</h3>
+    <h3 class="title is-3 has-text-centered mb-6">Algunas de nuestras secciones</h3>
     <div class="columns is-multiline is-centered">
       <!-- Tarjeta 1 -->
       <div class="column is-4">
