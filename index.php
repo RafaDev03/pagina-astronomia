@@ -82,7 +82,10 @@
     <div class="columns is-centered mt-4">
       <div class="column is-8">
         <div class="video-container">
-          <iframe width="100%" height="450" src="https://www.youtube.com/embed/c2h1T06-3vQ?si=GCDQvl3Nr6DBe2eb" title="Documental del universo" frameborder="0" allowfullscreen></iframe>
+          <video width="100%" height="450" controls>
+            <source src="assets/video/video.mp4" type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
         </div>
       </div>
     </div>

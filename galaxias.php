@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php
-    include_once 'includes/head.php'
+include_once 'includes/head.php'
     ?>
 
 <body class="has-background-dark">
@@ -13,7 +13,8 @@
         <div class="hero-body">
             <div class="container has-text-centered">
                 <h1 class="title is-1 has-text-white mt-4 mb-3">Galaxias</h1>
-                <p class="subtitle has-text-grey-light is-size-5">Inmensas colecciones de estrellas que albergan los
+                <p class="subtitle has-text-grey-light is-size-5 mt-4">Inmensas colecciones de estrellas que albergan
+                    los
                     secretos del universo.</p>
             </div>
         </div>
