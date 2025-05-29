@@ -1,12 +1,12 @@
-
 <?php
 $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 
 <header class="tw-bg-gray-900 has-text-white py-4">
     <div class="container has-text-centered">
-        <nav class="is-flex is-flex-wrap-wrap is-justify-content-center is-align-items-center">
-            <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-size-6">
+        <nav class="tw-flex tw-flex-col md:tw-flex-row tw-items-center tw-justify-center tw-gap-2">
+            <ul class="tw-flex tw-flex-col md:tw-flex-row tw-items-center tw-gap-2">
+
                 <?php
                 $pages = [
                     "index.php" => "Inicio",
