@@ -35,9 +35,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Yuri Gagarin</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Soviético (Rusia)</li>
-                                    <li><strong>Misión:</strong> Vostok 1 (1961)</li>
-                                    <li><strong>Logros:</strong> Primer ser humano en orbitar la Tierra.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Soviético (Rusia)</li>
+                                    <li><strong class="has-text-white">Misión:</strong> Vostok 1 (1961)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer ser humano en orbitar la
+                                        Tierra.</li>
                                 </ul>
                             </div>
                         </div>
@@ -54,9 +55,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Neil Armstrong</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misión:</strong> Apollo 11 (1969)</li>
-                                    <li><strong>Logros:</strong> Primer hombre en pisar la Luna.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misión:</strong> Apollo 11 (1969)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer hombre en pisar la Luna.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -73,9 +75,11 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Alan Shepard</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misiones:</strong> Mercury-Redstone 3, Apollo 14</li>
-                                    <li><strong>Logros:</strong> Primer estadounidense en el espacio.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> Mercury-Redstone 3, Apollo 14
+                                    </li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer estadounidense en el
+                                        espacio.</li>
                                 </ul>
                             </div>
                         </div>
@@ -92,9 +96,9 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Buzz Aldrin</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misiones:</strong> Gemini 12, Apollo 11</li>
-                                    <li><strong>Logros:</strong> Segundo hombre en la Luna.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> Gemini 12, Apollo 11</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Segundo hombre en la Luna.</li>
                                 </ul>
                             </div>
                         </div>
@@ -111,9 +115,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">John Glenn</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misiones:</strong> Mercury-Atlas 6, STS-95</li>
-                                    <li><strong>Logros:</strong> Primer estadounidense en orbitar la Tierra.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> Mercury-Atlas 6, STS-95</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer estadounidense en orbitar
+                                        la Tierra.</li>
                                 </ul>
                             </div>
                         </div>
@@ -131,9 +136,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Valentina Tereshkova</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Soviética</li>
-                                    <li><strong>Misión:</strong> Vostok 6 (1963)</li>
-                                    <li><strong>Logros:</strong> Primera mujer en el espacio.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Soviética</li>
+                                    <li><strong class="has-text-white">Misión:</strong> Vostok 6 (1963)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primera mujer en el espacio.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -153,9 +159,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Sally Ride</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misiones:</strong> STS-7, STS-41-G</li>
-                                    <li><strong>Logros:</strong> Primera mujer estadounidense en el espacio.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> STS-7, STS-41-G</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primera mujer estadounidense en
+                                        el espacio.</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,9 +179,11 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Chris Hadfield</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Canadiense</li>
-                                    <li><strong>Misiones:</strong> STS-74, STS-100, Soyuz TMA-07M</li>
-                                    <li><strong>Logros:</strong> Primer comandante canadiense de la EEI.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Canadiense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> STS-74, STS-100, Soyuz TMA-07M
+                                    </li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer comandante canadiense de
+                                        la EEI.</li>
                                 </ul>
                             </div>
                         </div>
@@ -191,9 +200,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Christa McAuliffe</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misión:</strong> STS-51-L (1986)</li>
-                                    <li><strong>Logros:</strong> Primera civil en el espacio; murió en el Challenger.
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misión:</strong> STS-51-L (1986)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primera civil en el espacio;
+                                        murió en el Challenger.
                                     </li>
                                 </ul>
                             </div>
@@ -211,9 +221,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Mae Jemison</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misión:</strong> STS-47 (1992)</li>
-                                    <li><strong>Logros:</strong> Primera mujer afroamericana en el espacio.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misión:</strong> STS-47 (1992)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primera mujer afroamericana en
+                                        el espacio.</li>
                                 </ul>
                             </div>
                         </div>
@@ -230,9 +241,11 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Scott Kelly</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Estadounidense</li>
-                                    <li><strong>Misiones:</strong> STS-103, STS-118, Soyuz TMA-01M</li>
-                                    <li><strong>Logros:</strong> Estancia de 1 año en la EEI.</li>
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Estadounidense</li>
+                                    <li><strong class="has-text-white">Misiones:</strong> STS-103, STS-118, Soyuz
+                                        TMA-01M</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Estancia de 1 año en la EEI.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -249,9 +262,10 @@ include_once 'includes/head.php'
                             <div class="column">
                                 <h3 class="title is-4 has-text-warning">Tim Peake</h3>
                                 <ul class="has-text-white">
-                                    <li><strong>Nacionalidad:</strong> Británico</li>
-                                    <li><strong>Misión:</strong> Principia (2015–2016)</li>
-                                    <li><strong>Logros:</strong> Primer astronauta británico en la EEI como parte de la
+                                    <li><strong class="has-text-white">Nacionalidad:</strong> Británico</li>
+                                    <li><strong class="has-text-white">Misión:</strong> Principia (2015–2016)</li>
+                                    <li><strong class="has-text-white">Logros:</strong> Primer astronauta británico en
+                                        la EEI como parte de la
                                         ESA.</li>
                                 </ul>
                             </div>
