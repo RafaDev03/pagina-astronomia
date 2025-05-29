@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronomía - <?php echo isset($pageTitle) ? $pageTitle : 'Inicio'; ?></title>
-</head>
-<body>
-    <header>
-        <h1>Exploración Astronómica</h1>
-        <nav>
-            <a href="index.php">Inicio</a> |
-            <a href="sistema-solar.php">Sistema Solar</a> |
-            <a href="contacto.php">Contacto</a>
-        </nav>
-    </header>
-    <main></main>
+<header>
+    <p>906 213 755 // andres08gs@hotmail.com</p>
+    <nav>
+        <ul>
+            <li><a href="perfil.php">Perfil</a></li>
+            <li><a href="estudios.php">Estudios</a></li>
+            <li><a href="experiencia.php">Experiencias</a></li>
+            <li><a href="habilidades.php">Habilidades Tecnicas</a></li>
+            <li><a href="intereses.php">Intereses</a></li>
+            <li><a href="contacto.php">Contáctenos</a></li>
+        </ul>
+    </nav>
+</header>
