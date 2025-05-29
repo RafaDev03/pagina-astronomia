@@ -13,7 +13,7 @@
 <section class="hero is-fullheight" style="
   background: 
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('assets/img/space-bg.jpg') no-repeat center center / cover;
+    url('assets/img/sistema-solar/space.jpg') no-repeat center center / cover;
 ">
   <div class="hero-body has-text-centered">
     <div class="container">
@@ -37,56 +37,56 @@
       <!-- Cada planeta es una columna -->
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/mercurio.jpg" alt="Mercurio">
+          <img src="assets/img/sistema-solar/mercurio.jpg" alt="Mercurio">
         </figure>
         <h4 class="title is-4 mt-3">Mercurio</h4>
         <p>El planeta más cercano al Sol, sin atmósfera y con temperaturas extremas que van de -180 °C a 430 °C.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/venus.jpg" alt="Venus">
+          <img src="assets/img/sistema-solar/venus.jpg" alt="Venus">
         </figure>
         <h4 class="title is-4 mt-3">Venus</h4>
         <p>El planeta más caliente del sistema solar por su atmósfera densa y efecto invernadero extremo.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/tierra.jpg" alt="Tierra">
+          <img src="assets/img/sistema-solar/tierra.jpg" alt="Tierra">
         </figure>
         <h4 class="title is-4 mt-3">Tierra</h4>
         <p>El único planeta conocido con vida y grandes cantidades de agua líquida en su superficie.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/marte.jpg" alt="Marte">
+          <img src="assets/img/sistema-solar/marte.jpg" alt="Marte">
         </figure>
         <h4 class="title is-4 mt-3">Marte</h4>
         <p>El planeta rojo, con evidencia de agua congelada y el objetivo de futuras misiones humanas.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/jupiter.jpg" alt="Júpiter">
+          <img src="assets/img/sistema-solar/jupiter.jpg" alt="Júpiter">
         </figure>
         <h4 class="title is-4 mt-3">Júpiter</h4>
         <p>El gigante gaseoso más grande, con la famosa Gran Mancha Roja, una tormenta gigante activa hace más de 300 años.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/saturno.jpg" alt="Saturno">
+          <img src="assets/img/sistema-solar/saturno.jpg" alt="Saturno">
         </figure>
         <h4 class="title is-4 mt-3">Saturno</h4>
         <p>Famoso por sus espectaculares anillos compuestos por hielo y roca, un verdadero espectáculo visual.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/urano.jpg" alt="Urano">
+          <img src="assets/img/sistema-solar/urano.jpg" alt="Urano">
         </figure>
         <h4 class="title is-4 mt-3">Urano</h4>
         <p>Un gigante helado con una inclinación axial única que causa estaciones extremas durante 20 años cada una.</p>
       </div>
       <div class="column is-4-tablet is-6-mobile">
         <figure class="image is-4by3">
-          <img src="assets/img/neptuno.jpg" alt="Neptuno">
+          <img src="assets/img/sistema-solar/neptuno.jpg" alt="Neptuno">
         </figure>
         <h4 class="title is-4 mt-3">Neptuno</h4>
         <p>El planeta más lejano, famoso por sus fuertes vientos y su brillante color azul.</p>

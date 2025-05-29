@@ -9,7 +9,7 @@
     <?php include 'includes/header.php'; ?>
 
 <!-- Hero con imagen -->
-<section class="hero is-medium is-dark" style="background-image: url('assets/img/historia-banner.jpg'); background-size: cover; background-position: center;">
+<section class="hero is-medium is-dark" style="background-image: url('assets/img/historia/historia-banner.jpg'); background-size: cover; background-position: center;">
   <div class="hero-body has-text-centered">
     <div class="container">
       <h1 class="title is-1 has-text-white" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.6);">
@@ -83,7 +83,7 @@
 
     <!-- Imagen integrada al final de la línea de tiempo -->
     <figure class="image is-16by5 mt-5" style="max-width: 900px; margin: 0 auto;">
-      <img src="assets/img/astronomos-antiguo.jpg" alt="Astrónomos antiguos observando el cielo" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+      <img src="assets/img/historia/astronomos-antiguo.jpg" alt="Astrónomos antiguos observando el cielo" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
       <figcaption class="has-text-centered mt-2 has-text-grey">
         Astrónomos antiguos observando el cielo estrellado, inspiración para siglos de descubrimientos.
       </figcaption>

@@ -12,7 +12,7 @@
   <section class="hero is-fullheight" style="
   background:
   linear-gradient(rgba(0, 0, 32, 0.6), rgba(0, 0, 32, 0.6)),
-  url('assets/img/stars-bg.jpg') no-repeat center center / cover;
+  url('assets/img/estrellas/stars-bg.jpg') no-repeat center center / cover;
   ">
   <div class="hero-body has-text-centered">
     <div class="container">
@@ -35,7 +35,7 @@
         <div class="column is-4">
           <div class="box has-text-centered">
             <div class="image-container" style="height: 200px; overflow: hidden; margin-bottom: 1rem;">
-              <img src="assets/img/enana.jpg" alt="Enana Blanca" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/estrellas/enana.jpg" alt="Enana Blanca" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <h3 class="title is-5">Enanas Blancas</h3>
             <p>Estrellas moribundas muy densas que ya no producen energía.</p>
@@ -44,7 +44,7 @@
         <div class="column is-4">
           <div class="box has-text-centered">
             <div class="image-container" style="height: 200px; overflow: hidden; margin-bottom: 1rem;">
-              <img src="assets/img/gigante.jpg"" alt=" Gigante Roja" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/estrellas/gigante.jpg"" alt=" Gigante Roja" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <h3 class="title is-5">Gigantes Rojas</h3>
             <p>Estrellas evolucionadas que han agotado el hidrógeno en su núcleo.</p>
@@ -53,7 +53,7 @@
         <div class="column is-4">
           <div class="box has-text-centered">
             <div class="image-container" style="height: 200px; overflow: hidden; margin-bottom: 1rem;">
-              <img src="assets/img/neutro.jpg"" alt=" Estrella de Neutrones" style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/img/estrellas/neutro.jpg"" alt=" Estrella de Neutrones" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
             <h3 class="title is-5">Estrellas de Neutrones</h3>
             <p>Restos estelares ultra densos tras una supernova.</p>

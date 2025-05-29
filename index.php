@@ -34,7 +34,7 @@
         <a href="historia.php" class="card hoverable">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="assets/img/historia.jpg" alt="Historia de la Astronomía">
+              <img src="assets/img/index/historia.jpg" alt="Historia de la Astronomía">
             </figure>
           </div>
           <div class="card-content">
@@ -48,7 +48,7 @@
         <a href="sistema-solar.php" class="card hoverable">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="assets/img/sistema-solar.jpg" alt="Sistema Solar">
+              <img src="assets/img/index/sistema-solar.jpg" alt="Sistema Solar">
             </figure>
           </div>
           <div class="card-content">
@@ -62,7 +62,7 @@
         <a href="estrellas.php" class="card hoverable">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="assets/img/estrellas.jpg" alt="Estrellas">
+              <img src="assets/img/index/estrellas.jpg" alt="Estrellas">
             </figure>
           </div>
           <div class="card-content">
