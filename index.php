@@ -92,27 +92,6 @@
   </div>
 </section>
 
-<!-- CSS adicional para efecto hover -->
-<style>
-  .card.hoverable:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    transform: translateY(-6px);
-    transition: all 0.3s ease;
-  }
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-  .video-container iframe {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
-
 <?php
 require_once 'includes/footer.php';
 ?>
