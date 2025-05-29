@@ -11,9 +11,9 @@
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="assets/css/tailwind.css">
 
-        <!-- NATIVO CSS -->
+    <!-- NATIVO CSS -->
 
-    <link rel="stylesheet" href="rafael.css">
-    <link rel="stylesheet" href="requena.css">
+    <link rel="stylesheet" href="assets/css/rafael.css">
+    <link rel="stylesheet" href="assets/css/requena.css">
 
 </head>
