@@ -82,80 +82,67 @@ include_once 'includes/head.php'
             <h3 class="title is-4 has-text-centered has-text-warning mb-5">Tipos de agujeros negros</h3>
             <div class="columns is-multiline">
 
-                <!-- Agujero negro estelar -->
+                <!-- Repite esto para cada tipo -->
                 <div class="column is-3">
                     <div
-                        class="tw-relative tw-group tw-overflow-hidden tw-rounded-lg tw-cursor-pointer tw-transition-transform tw-duration-300 tw-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 glow-hover tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-shadow-lg hover:tw-shadow-[0_0_20px_5px_rgba(130,90,230,0.7)]">
+                        class="tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-rounded-lg tw-shadow-lg tw-overflow-hidden tw-transition-transform tw-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 tw-h-full">
                         <img src="assets/img/agujeros-negros/estelar.jpg" alt="Agujero negro estelar"
-                            class="tw-w-full tw-h-60 tw-object-cover tw-transition-all tw-duration-500 group-hover:tw-opacity-40" />
-                        <div
-                            class="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-center tw-bg-black/70 tw-opacity-0 group-hover:tw-opacity-100 tw-transition-opacity tw-duration-500 tw-text-white tw-text-center tw-p-4 tw-backdrop-blur-sm">
-                            <div>
-                                <h2 class="tw-text-lg tw-font-bold tw-drop-shadow-lg">Estelar</h2>
-                                <p class="tw-text-sm tw-drop-shadow-md">Formado tras el colapso gravitacional de
-                                    estrellas masivas al final de su vida. Su masa suele ser entre 5 y 30 veces la del
-                                    Sol, y puede detectarse por la radiación emitida al absorber materia cercana.
-                                </p>
-                            </div>
+                            class="tw-w-full tw-h-60 tw-object-cover" />
+                        <div class="tw-p-4">
+                            <h2 class="tw-text-lg tw-font-bold tw-text-white tw-mb-2">Estelar</h2>
+                            <p class="tw-text-sm tw-text-gray-300">
+                                Formado tras el colapso gravitacional de estrellas masivas al final de su vida. Su masa
+                                suele ser entre 5 y 30 veces la del Sol, y puede detectarse por la radiación emitida al
+                                absorber materia cercana.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Agujero negro supermasivo -->
                 <div class="column is-3">
                     <div
-                        class="tw-relative tw-group tw-overflow-hidden tw-rounded-lg tw-cursor-pointer tw-transition-transform tw-duration-300 tw-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 glow-hover tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-shadow-lg hover:tw-shadow-[0_0_20px_5px_rgba(130,90,230,0.7)]">
+                        class="tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-rounded-lg tw-shadow-lg tw-overflow-hidden tw-transition-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 tw-h-full">
                         <img src="assets/img/agujeros-negros/supermasivo.jpg" alt="Agujero negro supermasivo"
-                            class="tw-w-full tw-h-60 tw-object-cover tw-transition-all tw-duration-500 group-hover:tw-opacity-40" />
-                        <div
-                            class="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-center tw-bg-black/70 tw-opacity-0 group-hover:tw-opacity-100 tw-transition-opacity tw-duration-500 tw-text-white tw-text-center tw-p-4 tw-backdrop-blur-sm">
-                            <div>
-                                <h2 class="tw-text-lg tw-font-bold tw-drop-shadow-lg">Supermasivo</h2>
-                                <p class="tw-text-sm tw-drop-shadow-md">Situados en el centro de casi todas las
-                                    galaxias, tienen masas que van desde millones hasta miles de millones de veces la
-                                    del Sol. Su formación aún es un misterio y están asociados a potentes efectos
-                                    gravitacionales y emisión energética.</p>
-                            </div>
+                            class="tw-w-full tw-h-60 tw-object-cover" />
+                        <div class="tw-p-4">
+                            <h2 class="tw-text-lg tw-font-bold tw-text-white tw-mb-2">Supermasivo</h2>
+                            <p class="tw-text-sm tw-text-gray-300">
+                                Situados en el centro de casi todas las galaxias, tienen masas que van desde millones
+                                hasta miles de millones de veces la del Sol. Su formación aún es un misterio y están
+                                asociados a potentes efectos gravitacionales y emisión energética.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Agujero negro de masa intermedia -->
                 <div class="column is-3">
                     <div
-                        class="tw-relative tw-group tw-overflow-hidden tw-rounded-lg tw-cursor-pointer tw-transition-transform tw-duration-300 tw-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 glow-hover tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-shadow-lg hover:tw-shadow-[0_0_20px_5px_rgba(130,90,230,0.7)]">
+                        class="tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-rounded-lg tw-shadow-lg tw-overflow-hidden tw-transition-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 tw-h-full">
                         <img src="assets/img/agujeros-negros/masa-intermedia.jpeg"
-                            alt="Agujero negro de masa intermedia"
-                            class="tw-w-full tw-h-60 tw-object-cover tw-transition-all tw-duration-500 group-hover:tw-opacity-40" />
-                        <div
-                            class="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-center tw-bg-black/70 tw-opacity-0 group-hover:tw-opacity-100 tw-transition-opacity tw-duration-500 tw-text-white tw-text-center tw-p-4 tw-backdrop-blur-sm">
-                            <div>
-                                <h2 class="tw-text-lg tw-font-bold tw-drop-shadow-lg">Masa intermedia</h2>
-                                <p class="tw-text-sm tw-drop-shadow-md">Agujeros negros con masas entre cientos y
-                                    decenas de miles de masas solares. Se cree que podrían formarse por la fusión de
-                                    agujeros negros estelares o colapsos en cúmulos estelares densos, pero su existencia
-                                    aún es objeto de estudio.</p>
-                            </div>
+                            alt="Agujero negro de masa intermedia" class="tw-w-full tw-h-60 tw-object-cover" />
+                        <div class="tw-p-4">
+                            <h2 class="tw-text-lg tw-font-bold tw-text-white tw-mb-2">Masa intermedia</h2>
+                            <p class="tw-text-sm tw-text-gray-300">
+                                Agujeros negros con masas entre cientos y decenas de miles de masas solares. Se cree que
+                                podrían formarse por la fusión de agujeros negros estelares o colapsos en cúmulos
+                                estelares densos, pero su existencia aún es objeto de estudio.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Agujero negro primordial -->
                 <div class="column is-3">
                     <div
-                        class="tw-relative tw-group tw-overflow-hidden tw-rounded-lg tw-cursor-pointer tw-transition-transform tw-duration-300 tw-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 glow-hover tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-shadow-lg hover:tw-shadow-[0_0_20px_5px_rgba(130,90,230,0.7)]">
+                        class="tw-bg-gradient-to-br from-purple-900 via-indigo-900 to-black tw-rounded-lg tw-shadow-lg tw-overflow-hidden tw-transition-transform hover:tw-scale-105 hover:tw-saturate-150 hover:tw-brightness-110 tw-h-full">
                         <img src="assets/img/agujeros-negros/primordial.jpg" alt="Agujero negro primordial"
-                            class="tw-w-full tw-h-60 tw-object-cover tw-transition-all tw-duration-500 group-hover:tw-opacity-40" />
-                        <div
-                            class="tw-absolute tw-inset-0 tw-flex tw-items-center tw-justify-center tw-bg-black/70 tw-opacity-0 group-hover:tw-opacity-100 tw-transition-opacity tw-duration-500 tw-text-white tw-text-center tw-p-4 tw-backdrop-blur-sm">
-                            <div>
-                                <h2 class="tw-text-lg tw-font-bold tw-drop-shadow-lg">Primordial</h2>
-                                <p class="tw-text-sm tw-drop-shadow-md">ipotéticos agujeros negros formados en los
-                                    primeros instantes tras el Big Bang, debido a fluctuaciones de densidad extremas.
-                                    Podrían tener masas muy variadas y serían clave para entender la materia oscura y la
-                                    evolución temprana del universo.
-                                </p>
-                            </div>
+                            class="tw-w-full tw-h-60 tw-object-cover" />
+                        <div class="tw-p-4">
+                            <h2 class="tw-text-lg tw-font-bold tw-text-white tw-mb-2">Primordial</h2>
+                            <p class="tw-text-sm tw-text-gray-300">
+                                Hipotéticos agujeros negros formados en los primeros instantes tras el Big Bang, debido
+                                a fluctuaciones de densidad extremas. Podrían tener masas muy variadas y serían clave
+                                para entender la materia oscura y la evolución temprana del universo.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -163,6 +150,7 @@ include_once 'includes/head.php'
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <?php include 'includes/footer.php'; ?>
