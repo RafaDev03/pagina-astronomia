@@ -2,7 +2,7 @@
 <html lang="es">
 
 <?php
-    include_once 'includes/head.php'
+include_once 'includes/head.php'
     ?>
 
 <body class="has-background-dark has-text-light">
@@ -14,7 +14,7 @@
     <section class="hero is-black py-6">
         <div class="hero-body has-text-centered">
             <h1 class="title is-1 has-text-white mt-4 mb-3">Agujeros Negros</h1>
-            <p class="subtitle has-text-grey-light is-size-5">
+            <p class="subtitle has-text-grey-light is-size-5 mt-4">
                 Los misteriosos objetos con gravedad tan intensa que nada escapa de ellos.
             </p>
         </div>
