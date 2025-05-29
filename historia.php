@@ -17,7 +17,7 @@ require_once 'includes/header.php';
   </div>
 </section>
 
-<!-- Línea de tiempo -->
+<!-- Línea de tiempo con imagen integrada -->
 <section class="section">
   <div class="container">
     <h3 class="title is-3 has-text-centered">Desde la antigüedad hasta hoy</h3>
@@ -71,51 +71,62 @@ require_once 'includes/header.php';
         </div>
       </div>
 
-      <div class="timeline-header">
+      <header class="timeline-header">
         <span class="tag is-medium is-dark">Hoy</span>
-      </div>
+      </header>
     </div>
-  </div>
-</section>
 
-<!-- Imagen destacada -->
-<section class="section has-background-light">
-  <div class="container">
-    <figure class="image is-3by1">
-      <img src="assets/img/astronomos-antiguo.jpg" alt="Astrónomos antiguos observando el cielo">
+    <!-- Imagen integrada al final de la línea de tiempo -->
+    <figure class="image is-16by5 mt-5" style="max-width: 900px; margin: 0 auto;">
+      <img src="assets/img/astronomos-antiguo.jpg" alt="Astrónomos antiguos observando el cielo" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+      <figcaption class="has-text-centered mt-2 has-text-grey">
+        Astrónomos antiguos observando el cielo estrellado, inspiración para siglos de descubrimientos.
+      </figcaption>
     </figure>
   </div>
 </section>
 
-<!-- Video embebido -->
-<section class="section">
+<!-- Nueva sección: Inventos clave -->
+<section class="section has-background-primary-light">
   <div class="container">
-    <h3 class="title is-3 has-text-centered">Documental: Historia del Universo</h3>
-    <div class="columns is-centered mt-4">
-      <div class="column is-8">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/k43SP4p0x2M" title="Documental Historia del Universo" frameborder="0" allowfullscreen></iframe>
+    <h3 class="title is-3 has-text-centered has-text-primary-dark">Inventos clave en la Astronomía</h3>
+    <div class="columns is-multiline mt-5">
+      <div class="column is-4">
+        <div class="box">
+          <h4 class="title is-4">El Astrolabio</h4>
+          <p>Instrumento usado desde la antigüedad para medir la altura de los astros sobre el horizonte y orientar a navegantes y astrónomos.</p>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="box">
+          <h4 class="title is-4">El Telescopio</h4>
+          <p>Inventado en el siglo XVII, permitió observar con detalle los cuerpos celestes y fue clave para validar el modelo heliocéntrico.</p>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="box">
+          <h4 class="title is-4">El Espectroscopio</h4>
+          <p>Herramienta que analiza la luz emitida por estrellas y planetas para determinar su composición y propiedades físicas.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CSS adicional -->
-<style>
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-  .video-container iframe {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
+<!-- Nueva sección: Astrónomos famosos -->
+<section class="section">
+  <div class="container">
+    <h3 class="title is-3 has-text-centered">Astrónomos famosos y sus aportes</h3>
+    <div class="content mt-5" style="max-width: 900px; margin: 0 auto;">
+      <ul>
+        <li><strong>Hiparco (190-120 a.C.)</strong>: Creó el primer catálogo de estrellas conocido y descubrió la precesión de los equinoccios.</li>
+        <li><strong>Galileo Galilei (1564-1642)</strong>: Usó el telescopio para descubrir los satélites de Júpiter y las fases de Venus.</li>
+        <li><strong>Edwin Hubble (1889-1953)</strong>: Demostró que el universo está en expansión, fundamentando la teoría del Big Bang.</li>
+        <li><strong>Vera Rubin (1928-2016)</strong>: Pionera en la evidencia de la materia oscura mediante el estudio de la rotación de galaxias.</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 <?php
 require_once 'includes/footer.php';
