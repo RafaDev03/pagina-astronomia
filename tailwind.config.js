@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  prefix: "tw-", // ← prefijo para todas las clases Tailwind
+  content: ["./**/*.php"], // escanea todos los archivos PHP
   theme: {
     extend: {},
   },
   plugins: [],
-}
-
+};
