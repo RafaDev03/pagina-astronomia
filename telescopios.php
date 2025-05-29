@@ -12,7 +12,8 @@
         <div class="hero-body">
             <div class="hero-body has-text-centered">
                 <h1 class="title is-1 has-text-white mt-4 mb-4">Telescopios</h1>
-                <p class="subtitle has-text-grey-light is-size-5">Instrumentos que nos permiten explorar el cosmos desde
+                <p class="subtitle has-text-grey-light is-size-5 mt-4">Instrumentos que nos permiten explorar el cosmos
+                    desde
                     la Tierra.</p>
             </div>
         </div>

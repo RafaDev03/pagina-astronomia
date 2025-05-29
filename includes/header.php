@@ -18,9 +18,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                     "astronautas.php" => ["Astronautas", "fas fa-user-astronaut"],
                     "telescopios.php" => ["Telescopios", "fas fa-binoculars"],
                     "eventos.php" => ["Eventos", "fas fa-calendar-alt"],
-                    "contacto.php" => ["Contacto", "fas fa-envelope"],
                     "curiosidades.php" => ["Curiosidades", "fas fa-lightbulb"],
-                    "exploracion-espacial.php" => ["Exploracion Espacial", "fas fa-rocket"]
+                    "exploracion-espacial.php" => ["Exploracion Espacial", "fas fa-rocket"],
+                    "contacto.php" => ["Contacto", "fas fa-envelope"],
                 ];
 
 
