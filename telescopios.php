@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-include_once 'includes/head.php'
-    ?>
+<?php include_once 'includes/head.php'; ?>
 
 <body>
     <!-- Header -->
@@ -19,13 +17,16 @@ include_once 'includes/head.php'
             </div>
         </div>
     </section>
-    <section class="section">
-        <div class="container has-text-centered mt-2">
+
+    <!-- Section -->
+    <section class="section has-background-dark">
+        <div class="container has-text-centered mt-2 tw-px-4">
             <h2 class="title is-4 has-text-warning mb-6">
                 Los Telescopios Más Potentes del Mundo
             </h2>
 
-            <div class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-items-stretch tw-justify-center">
+            <div
+                class="tw-flex tw-flex-col md:tw-flex-row tw-gap-10 tw-gap-y-10 md:tw-gap-y-0 tw-items-stretch tw-justify-center">
 
                 <!-- Card 1 -->
                 <div
@@ -38,8 +39,7 @@ include_once 'includes/head.php'
                         <h3 class="tw-text-2xl tw-font-bold tw-text-yellow-300 tw-mb-2">Gran Telescopio de Canarias</h3>
                         <p class="tw-text-sm tw-text-gray-300 tw-flex-grow">
                             Localizado en La Palma, el GRANTECAN es el telescopio óptico más grande del mundo, con un
-                            espejo de 10,4 m.
-                            Opera en rangos óptico e infrarrojo.
+                            espejo de 10,4 m. Opera en rangos óptico e infrarrojo.
                         </p>
                         <p class="tw-text-xs tw-text-gray-400 tw-mt-3">Foto: Dusko Despotovic/Corbis via Getty Images
                         </p>
