@@ -25,7 +25,7 @@
         </div>
     </section>
 
-    <section class="section has-background-dark">
+   <section class="section has-background-dark">
         <div class="container">
             <div class="columns">
                 <div class="column is-6">
@@ -74,14 +74,51 @@
                 
                 <div class="column is-5 is-offset-1">
                     <div class="box has-background-grey-darker">
-                        <figure class="image is-5by3 mb-4">
-                            <img src="assets\img\contacto\universo.jpg" alt="Equipo astronómico">
-                        </figure>
-                        <h3 class="title is-4 has-text-white">Nuestro equipo</h3>
-                        <div class="content has-text-grey-light">
+                        <h3 class="title is-4 has-text-white mb-4">Nuestro equipo</h3>
+                        
+                        <!-- Integrante 1 -->
+                        <div class="columns is-mobile is-vcentered mb-5">
+                            <div class="column is-one-third">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="assets\img\contacto\rafa.jpg" alt="Integrante 1">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h4 class="title is-5 has-text-white">Rafael Flores Rivera</h4>
+                                <p class="subtitle is-6 has-text-grey-light">Astrónomo profesional</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Integrante 2 -->
+                        <div class="columns is-mobile is-vcentered mb-5">
+                            <div class="column is-one-third">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="assets\img\contacto\nicolas.jpeg" alt="Integrante 2">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h4 class="title is-5 has-text-white">Nicolas Requena Castro</h4>
+                                <p class="subtitle is-6 has-text-grey-light">Especialista en telescopios</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Integrante 3 -->
+                        <div class="columns is-mobile is-vcentered">
+                            <div class="column is-one-third">
+                                <figure class="image is-128x128">
+                                    <img class="is-rounded" src="assets\img\contacto\gomez.jpg" alt="Integrante 3">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h4 class="title is-5 has-text-white">Andres Gomez Salvo</h4>
+                                <p class="subtitle is-6 has-text-grey-light">Fotógrafo astronómico</p>
+                            </div>
+                        </div>
+                        
+                        <div class="content has-text-grey-light mt-5">
                             <p>Estamos disponibles para responder tus dudas sobre astronomía, observación de eventos y más.</p>
                             <p class="mt-4"><span class="icon has-text-warning"><i class="fas fa-envelope"></i></span> contacto@astronomia.com</p>
-                            <p><span class="icon has-text-warning"><i class="fas fa-phone"></i></span> +34 123 456 789</p>
+                            <p><span class="icon has-text-warning"><i class="fas fa-phone"></i></span> +51 987 456 789</p>
                         </div>
                     </div>
                 </div>

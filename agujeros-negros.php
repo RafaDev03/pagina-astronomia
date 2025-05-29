@@ -65,7 +65,7 @@ include_once 'includes/head.php'
                 <div class="column is-4">
                     <div
                         class="box has-background-grey-darker has-text-white p-5 hover:tw-scale-105 tw-transition-transform tw-duration-300 tw-transform">
-                        <i class="fas fa-galaxy fa-2x mb-3 has-text-warning"></i>
+                        <i class="fas fa-user-astronaut fa-2x mb-3 has-text-warning"></i>
                         <h4 class="title is-5">Crecimiento de agujeros negros supermasivos</h4>
                         <p>Mediante acumulación de masa y fusiones galácticas, pueden alcanzar masas enormes.</p>
                     </div>
