@@ -13,7 +13,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                     "historia.php" => ["Historia", "fas fa-book-open"],
                     "sistema-solar.php" => ["Sistema Solar", "fas fa-globe"],
                     "estrellas.php" => ["Estrellas", "fas fa-star"],
-                    "galaxias.php" => ["Galaxias", "fas fa-galaxy"],
+                    "galaxias.php" => ["Galaxias", "fas fa-circle"],
                     "agujeros-negros.php" => ["Agujeros Negros", "fas fa-circle-half-stroke"],
                     "astronautas.php" => ["Astronautas", "fas fa-user-astronaut"],
                     "telescopios.php" => ["Telescopios", "fas fa-binoculars"],
@@ -25,8 +25,6 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
 
                 foreach ($pages as $file => [$name, $icon]) {
-                    if ($icon === "fas fa-galaxy")
-                        $icon = "fas fa-circle";
                     $active = $currentPage === $file ? 'has-text-link has-text-weight-bold' : 'has-text-white';
                     echo "
                     <li class='mx-3 my-1 tw-text-center'>
