@@ -17,10 +17,10 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                     "agujeros-negros.php" => ["Agujeros Negros", "fas fa-circle-half-stroke"],
                     "astronautas.php" => ["Astronautas", "fas fa-user-astronaut"],
                     "telescopios.php" => ["Telescopios", "fas fa-binoculars"],
-                    "eventos.php" => ["Eventos", "fas fa-calendar-alt"],
-                    "contacto.php" => ["Contacto", "fas fa-envelope"],
+                    "eventos.php" => ["Eventos", "fas fa-calendar-alt"],   
                     "curiosidades.php" => ["Curiosidades", "fas fa-lightbulb"],
-                    "exploracion-espacial.php" => ["Exploracion Espacial", "fas fa-rocket"]
+                    "exploracion-espacial.php" => ["Exploracion Espacial", "fas fa-rocket"],
+                    "contacto.php" => ["Contacto", "fas fa-envelope"]
                 ];
 
 
