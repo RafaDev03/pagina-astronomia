@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php
-    include_once 'includes/head.php'
-    ?>
+<?php include_once 'includes/head.php' ?>
 <body class="has-background-dark">
 
     <?php include 'includes/header.php'; ?>
@@ -13,7 +11,8 @@
                 <div class="columns is-vcentered">
                     <div class="column is-8">
                         <h1 class="title is-1 has-text-white">Contacto</h1>
-                        <h2 class="subtitle is-4 has-text-grey-light">Envíanos tus preguntas astronómicas</h2>
+                        <div class="divider-gradient"></div>
+                        <h2 class="subtitle is-4 has-text-grey-light mt-3">Envíanos tus preguntas astronómicas</h2>
                     </div>
                     <div class="column is-4 has-text-centered">
                         <figure class="image is-128x128 is-inline-block">
@@ -25,62 +24,62 @@
         </div>
     </section>
 
-   <section class="section has-background-dark">
+    <section class="section has-background-dark">
         <div class="container">
             <div class="columns">
                 <div class="column is-6">
-                    <div class="box has-background-grey-darker">
+                    <div class="box has-background-grey-darker contact-box">
                        <form action="procesar_contacto.php" method="POST">
-                    <div class="field">
-                        <label class="label has-text-white">Nombre</label>
-                        <div class="control has-icons-left">
-                            <input class="input" type="text" name="nombre" required>
-                            <span class="icon is-small is-left has-text-grey-light">
-                                <i class="fas fa-user"></i>
-                            </span>
-                        </div>
-                    </div>
+                            <div class="field">
+                                <label class="label has-text-white">Nombre</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" type="text" name="nombre" required>
+                                    <span class="icon is-small is-left has-text-grey-light">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                            </div>
 
-                    <div class="field">
-                        <label class="label has-text-white">Email</label>
-                        <div class="control has-icons-left">
-                            <input class="input" type="email" name="email" required>
-                            <span class="icon is-small is-left has-text-grey-light">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                        </div>
-                    </div>
+                            <div class="field">
+                                <label class="label has-text-white">Email</label>
+                                <div class="control has-icons-left">
+                                    <input class="input" type="email" name="email" required>
+                                    <span class="icon is-small is-left has-text-grey-light">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
 
-                    <div class="field">
-                        <label class="label has-text-white">Mensaje</label>
-                        <div class="control">
-                            <textarea class="textarea" name="mensaje" required></textarea>
-                        </div>
-                    </div>
+                            <div class="field">
+                                <label class="label has-text-white">Mensaje</label>
+                                <div class="control">
+                                    <textarea class="textarea custom-textarea" name="mensaje" required></textarea>
+                                </div>
+                            </div>
 
-                    <div class="field">
-                        <div class="control">
-                            <button type="submit" class="button is-warning is-fullwidth">
-                                <span class="icon">
-                                    <i class="fas fa-paper-plane"></i>
-                                </span>
-                                <span>Enviar Mensaje</span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                            <div class="field">
+                                <div class="control">
+                                    <button type="submit" class="button is-warning is-fullwidth custom-submit-btn">
+                                        <span class="icon">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </span>
+                                        <span>Enviar Mensaje</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 
                 <div class="column is-5 is-offset-1">
-                    <div class="box has-background-grey-darker">
+                    <div class="box has-background-grey-darker contact-box">
                         <h3 class="title is-4 has-text-white mb-4">Nuestro equipo</h3>
                         
                         <!-- Integrante 1 -->
                         <div class="columns is-mobile is-vcentered mb-5">
                             <div class="column is-one-third">
                                 <figure class="image is-128x128">
-                                    <img class="is-rounded" src="assets\img\contacto\rafa.jpg" alt="Integrante 1">
+                                    <img class="team-member-img" src="assets/img/contacto/rafa.jpg" alt="Rafael Flores">
                                 </figure>
                             </div>
                             <div class="column">
@@ -93,7 +92,7 @@
                         <div class="columns is-mobile is-vcentered mb-5">
                             <div class="column is-one-third">
                                 <figure class="image is-128x128">
-                                    <img class="is-rounded" src="assets\img\contacto\nicolas.jpeg" alt="Integrante 2">
+                                    <img class="team-member-img" src="assets/img/contacto/nicolas.jpeg" alt="Nicolas Requena">
                                 </figure>
                             </div>
                             <div class="column">
@@ -106,7 +105,7 @@
                         <div class="columns is-mobile is-vcentered">
                             <div class="column is-one-third">
                                 <figure class="image is-128x128">
-                                    <img class="is-rounded" src="assets\img\contacto\gomez.jpg" alt="Integrante 3">
+                                    <img class="team-member-img" src="assets/img/contacto/gomez.jpg" alt="Andres Gomez">
                                 </figure>
                             </div>
                             <div class="column">
@@ -126,6 +125,6 @@
         </div>
     </section>
 
-<?php include 'includes/footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>
