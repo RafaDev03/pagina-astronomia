@@ -9,23 +9,32 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
                 <?php
                 $pages = [
-                    "index.php" => "Inicio",
-                    "historia.php" => "Historia",
-                    "sistema-solar.php" => "Sistema Solar",
-                    "estrellas.php" => "Estrellas",
-                    "galaxias.php" => "Galaxias",
-                    "agujeros-negros.php" => "Agujeros Negros",
-                    "astronautas.php" => "Astronautas",
-                    "telescopios.php" => "Telescopios",
-                    "eventos.php" => "Eventos",
-                    "contacto.php" => "Contacto",
-                    "curiosidades.php" => "Curiosidades",
-                    "exploracion-espacial.php" => "Exploracion Espacial"
+                    "index.php" => ["Inicio", "fas fa-house"],
+                    "historia.php" => ["Historia", "fas fa-book-open"],
+                    "sistema-solar.php" => ["Sistema Solar", "fas fa-globe"],
+                    "estrellas.php" => ["Estrellas", "fas fa-star"],
+                    "galaxias.php" => ["Galaxias", "fas fa-galaxy"],
+                    "agujeros-negros.php" => ["Agujeros Negros", "fas fa-circle-half-stroke"],
+                    "astronautas.php" => ["Astronautas", "fas fa-user-astronaut"],
+                    "telescopios.php" => ["Telescopios", "fas fa-binoculars"],
+                    "eventos.php" => ["Eventos", "fas fa-calendar-alt"],
+                    "contacto.php" => ["Contacto", "fas fa-envelope"],
+                    "curiosidades.php" => ["Curiosidades", "fas fa-lightbulb"],
+                    "exploracion-espacial.php" => ["Exploracion Espacial", "fas fa-rocket"]
                 ];
 
-                foreach ($pages as $file => $name) {
+
+                foreach ($pages as $file => [$name, $icon]) {
+                    if ($icon === "fas fa-galaxy")
+                        $icon = "fas fa-circle";
                     $active = $currentPage === $file ? 'has-text-link has-text-weight-bold' : 'has-text-white';
-                    echo "<li class='mx-3 my-1'><a href='{$file}' class='{$active}'>{$name}</a></li>";
+                    echo "
+                    <li class='mx-3 my-1 tw-text-center'>
+                        <a href='{$file}' class='{$active} tw-flex tw-flex-col tw-items-center'>
+                            <i class='{$icon} tw-text-lg'></i>
+                            <span>{$name}</span>
+                        </a>
+                    </li>";
                 }
                 ?>
             </ul>
