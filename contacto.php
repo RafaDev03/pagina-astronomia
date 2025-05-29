@@ -6,9 +6,11 @@
     <title>Contacto | Astronomía</title>
     <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <link rel="stylesheet" href="assets/css/tailwind.css">
 </head>
 <body class="has-background-dark">
 
+    <?php include 'includes/header.php'; ?>
 
     <section class="hero is-black">
         <div class="hero-body">
@@ -92,6 +94,6 @@
         </div>
     </section>
 
-
+<?php include 'includes/footer.php'; ?>
 </body>
 </html>

@@ -6,17 +6,21 @@
             </p>
             <nav>
                 <ul class="tw-flex tw-flex-wrap tw-gap-4 tw-text-sm">
-                    <li><a href="perfil.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Perfil</a></li>
-                    <li><a href="estudios.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Estudios</a>
+                    <li><a href="index.php.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Inicio</a></li>
+                    <li><a href="historia.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Historia</a>
                     </li>
                     <li><a href="experiencia.php"
-                            class="tw-text-white hover:tw-text-blue-400 tw-transition">Experiencias</a></li>
-                    <li><a href="habilidades.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Habilidades
-                            Técnicas</a></li>
-                    <li><a href="intereses.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Intereses</a>
+                            class="tw-text-white hover:tw-text-blue-400 tw-transition">Sistema Solar</a></li>
+                    <li><a href="habilidades.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Esttrellas</a></li>
+                    <li><a href="intereses.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Galaxias</a>
                     </li>
-                    <li><a href="contacto.php"
-                            class="tw-text-white hover:tw-text-blue-400 tw-transition">Contáctenos</a></li>
+                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Agujeros Negros</a></li>
+                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Astronautas</a></li>
+                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Telescopios</a></li>
+                    <li><a href="eventos.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Eventos</a></li>
+                    <li><a href="contacto.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Contacto</a></li>
+                    <li><a href="curiosidades.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Curiosidades</a></li>
+                    <li><a href="exploracion-espacial.php" class="tw-text-white hover:tw-text-blue-400 tw-transition">Exploracion Espacial</a></li>
                 </ul>
             </nav>
         </div>
