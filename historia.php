@@ -1,8 +1,12 @@
 
+<!DOCTYPE html>
+<html lang="es">
 <?php
-$pageTitle = "Historia de la Astronomía";
-require_once 'includes/header.php';
-?>
+    include_once 'includes/head.php'
+    ?>
+
+<body>
+    <?php include 'includes/header.php'; ?>
 
 <!-- Hero con imagen -->
 <section class="hero is-medium is-dark" style="background-image: url('assets/img/historia-banner.jpg'); background-size: cover; background-position: center;">
@@ -132,3 +136,6 @@ require_once 'includes/header.php';
 <?php
 require_once 'includes/footer.php';
 ?>
+
+</body>
+</html>

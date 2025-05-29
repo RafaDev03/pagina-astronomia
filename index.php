@@ -1,7 +1,11 @@
+<!DOCTYPE html>
+<html lang="es">
 <?php
-$pageTitle = "Inicio";
-require_once 'includes/header.php';
-?>
+    include_once 'includes/head.php'
+    ?>
+
+<body>
+    <?php include 'includes/header.php'; ?>
 
 <!-- HERO con imagen de fondo -->
 <section class="hero is-fullheight is-dark is-bold" style="background-image: url('assets/img/espacio.jpg'); background-size: cover; background-position: center;">
@@ -109,3 +113,6 @@ require_once 'includes/header.php';
 <?php
 require_once 'includes/footer.php';
 ?>
+
+</body>
+</html>

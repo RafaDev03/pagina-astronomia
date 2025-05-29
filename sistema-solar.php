@@ -1,9 +1,14 @@
 
+<!DOCTYPE html>
+<html lang="es">
 <?php
-$pageTitle = "Sistema Solar";
-require_once 'includes/header.php';
-?>
+    include_once 'includes/head.php'
+    ?>
 
+<!-- Hero con fondo de estrellas -->
+
+<body>
+    <?php include 'includes/header.php'; ?>
 <!-- Hero con fondo espacial oscuro para contraste mejorado -->
 <section class="hero is-fullheight" style="
   background: 
@@ -148,4 +153,7 @@ require_once 'includes/header.php';
     </div>
   </div>
 </section>
->>>>>>> 438470fd95a0eacf70b22acf7a3c3cd75614a561
+
+</body>
+<
+  </html>
