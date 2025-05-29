@@ -1,0 +1,95 @@
+/* Estilos personalizados para la página de contacto */
+
+/* 1. Divider con efecto de degradado */
+.divider-gradient {
+  width: 100px;
+  height: 3px;
+  margin: 1rem auto;
+  background: linear-gradient(90deg, transparent, #ffdd57, transparent);
+}
+
+/* 2. Imágenes del equipo */
+.team-member-img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.team-member-img:hover {
+  transform: scale(1.05);
+  border-color: #ffdd57;
+  box-shadow: 0 5px 15px rgba(255, 221, 87, 0.3);
+}
+
+/* 3. Efectos para los boxes */
+.contact-box {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.contact-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: #ffdd57;
+  transition: height 0.3s ease;
+}
+
+.contact-box:hover::before {
+  height: 100%;
+}
+
+/* 4. Textarea personalizado */
+.custom-textarea {
+  min-height: 150px;
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.custom-textarea:focus {
+  border-color: #ffdd57;
+  box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25);
+}
+
+/* 5. Botón con efecto mejorado */
+.custom-submit-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.custom-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 221, 87, 0.4);
+}
+
+.custom-submit-btn::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(30deg);
+  transition: all 0.4s;
+}
+
+.custom-submit-btn:hover::after {
+  left: 100%;
+}

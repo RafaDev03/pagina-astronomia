@@ -10,4 +10,10 @@
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="assets/css/tailwind.css">
+
+        <!-- NATIVO CSS -->
+
+    <link rel="stylesheet" href="rafael.css">
+    <link rel="stylesheet" href="requena.css">
+
 </head>
